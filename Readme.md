@@ -24,5 +24,6 @@ A Simple TCP Chat Server built in Go that allows multiple clients to connect, ch
    ```bash
    go run main.go -mode=server -port=8080
 3. Run the client with the following command:
+   ```bash
     go run main.go -mode=client -address=localhost:8080
 
